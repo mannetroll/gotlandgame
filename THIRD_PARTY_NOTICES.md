@@ -1,0 +1,65 @@
+# Third-party notices and data credits
+
+The MIT licence in LICENSE applies to original project software, including the owner's engine recordings. It does not relicense third-party assets, data, trademarks or the Unity runtime. This distribution contains compiled software and game data; no game source code or Unity development project is included.
+
+## Car models — CC BY-NC 4.0
+
+- **Rally Car**, SpatialNeglect (@jeandiz): https://sketchfab.com/3d-models/rally-car-e0dfd3b6d19947df85002fd8de0a3a02
+- **Subaru Impreza**, Mateusz Woliński (@jeandiz), as credited in the supplied GLB: https://sketchfab.com/3d-models/subaru-impreza-7fb4298d5d8f4185b25bb2c43d7f3787
+- Author: https://sketchfab.com/jeandiz
+- Licence: https://creativecommons.org/licenses/by-nc/4.0/
+
+Adaptations include format conversion, Unity materials, texture resizing and packed material maps, transparent glass, scale and ground alignment, animated wheel and steering pivots, cockpit instruments, driver rigging and hand animation, camera anchors, paint variants, and removal of the pace-note book, co-driver and unused harness. The Impreza's cockpit and driver use the separately credited Rally Car assets. Attribution and noncommercial use are required. Keep these notices with redistributed builds.
+
+## Poly Haven — CC0
+
+- Kloppenheim 05 HDR environment, Greg Zaal: https://polyhaven.com/a/kloppenheim_05
+- Aerial Asphalt 01: https://polyhaven.com/a/aerial_asphalt_01
+- Withered Grass: https://polyhaven.com/a/withered_grass
+- Gravel Floor: https://polyhaven.com/a/gravel_floor
+- Licence: https://polyhaven.com/license
+
+Materials and environment imagery are adapted for the game. The pine cutout, application icon and illustrated splash artwork were AI-generated for the project.
+
+## Engine audio
+
+Engine audio is derived from the repository owner's in-car film recorded in their Impreza at GotlandRing in 2022 with Alec Arho-Havrén. The full film is not bundled. The derived recordings use the project's MIT licence.
+
+## OpenStreetMap — ODbL 1.0
+
+© OpenStreetMap contributors. Roads, coastlines, buildings, land-use geometry, vegetation, places and circuit data include adapted OpenStreetMap data, sourced through the Geofabrik Sweden extract. Licence and attribution: https://www.openstreetmap.org/copyright . ODbL terms: https://opendatacommons.org/licenses/odbl/1-0/ . Preserve attribution and applicable share-alike obligations for adapted databases. Runtime geography and source/provenance metadata accompany the game.
+
+## Lantmäteriet — CC BY 4.0
+
+© Lantmäteriet. Processed information from Min karta orthophotography, Markhöjdmodell Nedladdning (RH2000 terrain), Laserdata Nedladdning skog (including the 2024 survey), and the 1:50,000 topographic map provides terrain, measured building details and the optional touring-map background. Map order reference: LM2026/157873. Information has been resampled, interpreted and adapted for game rendering. Licence: https://creativecommons.org/licenses/by/4.0/ . Provider: https://www.lantmateriet.se/ . Runtime provenance retains source identifiers and measurement qualifications.
+
+## Microsoft building footprints — CDLA Permissive 2.0
+
+Microsoft Global ML Building Footprints, release 2026-08-13: https://github.com/microsoft/GlobalMLBuildingFootprints . Supplemental mapped roof footprints are adapted into game scenery. The complete CDLA Permissive 2.0 agreement is included in LICENSE-CDLA-Permissive-2.0.txt. Heights, architectural details and grounds remain measured or estimated separately; the footprint dataset does not supply property boundaries.
+
+## Other geographic sources
+
+- **Trafikverket NVDB:** road widths and geometry. https://nvdbpakarta.trafikverket.se/map and https://www.trafikverket.se/e-tjanster/hamta-data-fran-trafikverket/ . Published open-data terms reference CC0: https://creativecommons.org/publicdomain/zero/1.0/ . Widths are matched to mapped roads; unmatched widths are estimates.
+- **Naturvårdsverket:** NMD2023 basskikt v2.1 land-cover classes, adapted to summer ground colours and procedural vegetation. https://www.naturvardsverket.se/
+- **Skogsstyrelsen:** Trädhöjd Laserdata skog, 2024 canopy heights, used for approximate tree heights. Tree positions and crown shapes are procedural. https://www.skogsstyrelsen.se/
+- **Jordbruksverket:** agricultural blocks 2025, adapted to field outlines and estimated grassy margins. These are not represented as surveyed property boundaries. https://jordbruksverket.se/
+- **Länsstyrelserna / Vindbrukskollen:** supplied turbine positions and dimensions; terrain elevations and associated aerial references are from Lantmäteriet. https://www.vindlov.se/
+- **Copernicus:** produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. Modified offshore terrain retains provisional EGM2008 heights. Source and licence: https://registry.opendata.aws/copernicus-dem/
+
+## Destination and architectural references
+
+Reference photographs and illustrated tourist maps are research material and are not redistributed. Procedural structures interpret these references; dimensions and appearances may be estimates. Individual source identifiers and references are retained in the game's catalogues and geographic metadata.
+
+- Guteinfo: churches, fishing places, rauks, lighthouses and Visby wall references: https://www.guteinfo.com/ . Fårö Fyr photographs credited to Bernt Enderborg.
+- Norra Gotlands pastorat, Gotska Sandön chapel: https://www.svenskakyrkan.se/norragotland/gotska-sandons-kapell
+- Gotland upp och ner, fishing places: https://gotlanduppochner.com/category/fiskelagen-pa-gotland/
+- Region Gotland, bathing-place names and locations: https://gotland.se/kultur-och-fritid/idrott-motion-och-friluftsliv/bad--och-besoksplatser/region-gotlands-badplatser
+- Svenska Fyrsällskapet: https://fyr.org/wiki/index.php/Gotland ; Fyrtillsyn Gotland: http://fyrtillsyngotland.se/ ; Russ Rowlett's Lighthouse Directory: https://www.ibiblio.org/lighthouse/swgot.htm ; Deutsche Leuchtfeuer: https://www.deutsche-leuchtfeuer.de/schwedische-leuchtfeuer/gotland/leuchtfeuer-gotland.html
+- Sudersand Resort: https://www.sudersand.se/ ; Tofta Camping: https://www.toftacamping.se/ ; Surflogiet: https://www.surflogiet.com/ ; Toftagården: https://www.toftagarden.se/ ; Tofta Strandpensionat: https://toftastrand.se/
+- Petrol station names, locations and fuel types use OpenStreetMap and public listings from Din-X, Tankvärt, INGO, St1, OKQ8 and Biogas Gotland. Operator photographs and logos are not bundled; pump layouts are estimates. No live prices or opening-status claims are made.
+
+## Unity and trademarks
+
+Unity and the compiled Unity runtime remain subject to Unity's applicable terms and are not covered by the project's MIT licence. The Windows installer is built with Inno Setup: https://jrsoftware.org/isinfo.php .
+
+This is an unofficial fan-made prototype, not affiliated with, sponsored by or endorsed by GotlandRing, Subaru Corporation or their affiliates. Names and trademarks remain their owners' property. The game's geometry is an approximate reconstruction and is not an authoritative survey.
