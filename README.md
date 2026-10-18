@@ -14,8 +14,8 @@ This public repository contains player documentation, screenshots, a trailer and
     <td width="50%"><a href="images/visby.png"><img src="images/visby.png" alt="Visby Cathedral and the Impreza overlooking the old town" width="100%"></a><br><strong>Visby Domkyrka</strong></td>
   </tr>
   <tr>
-    <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Resort seen from above" width="100%"></a><br><strong>Sudersand — from above</strong></td>
-    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn harbour and grain terminal seen from above" width="100%"></a><br><strong>Klintehamn harbour — from above</strong></td>
+    <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Väst, its campsite and beach seen from above" width="100%"></a><br><strong>Sudersand Väst — from above</strong></td>
+    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn harbour, channel and grain terminal" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
   </tr>
 </table>
 
