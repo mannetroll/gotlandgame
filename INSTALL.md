@@ -1,12 +1,12 @@
 # Install Gotland World
 
-Download the files for your platform from [release v0.1.0](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.0). Keep all parts in one folder and retain their exact names. Allow at least 12 GB free while downloading and installing. The installed game needs around 4.3 GB.
+Download the files for your platform from [release v0.1.1](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.1). Keep all parts in one folder and retain their exact names. Allow at least 12 GB free while downloading and installing. The installed game needs around 4.7 GB.
 
 ## macOS — Apple Silicon
 
 Requires macOS 12 or later on an Apple Silicon Mac. Intel Macs are not supported by this download.
 
-1. Download `GotlandWorld-v0.1.0-macOS-arm64.dmg` and `GotlandWorld-v0.1.0-macOS-arm64.002.dmgpart` into the same folder.
+1. Download `GotlandWorld-v0.1.1-macOS-arm64.dmg` and `GotlandWorld-v0.1.1-macOS-arm64.002.dmgpart` into the same folder.
 2. Open the `.dmg` file. macOS reads the accompanying part automatically.
 3. Drag `GotlandWorld.app` to Applications. Keep the accompanying licence notices if you redistribute the game.
 4. Eject the disk image, then open GotlandWorld from Applications.
@@ -17,7 +17,7 @@ If the disk image cannot open, confirm both files finished downloading, are in t
 
 ## Windows 11 — x64
 
-1. Download `GotlandWorld-v0.1.0-Windows-x64-Setup.exe`, `GotlandWorld-v0.1.0-Windows-x64-Setup-1.bin` and `GotlandWorld-v0.1.0-Windows-x64-Setup-2.bin` into the same folder.
+1. Download `GotlandWorld-v0.1.1-Windows-x64-Setup.exe`, `GotlandWorld-v0.1.1-Windows-x64-Setup-1.bin` and `GotlandWorld-v0.1.1-Windows-x64-Setup-2.bin` into the same folder.
 2. Open the Setup executable and choose the install folder. Installation is per-user and does not require administrator rights.
 3. Launch **Gotland World** from the Start menu or the optional Desktop shortcut.
 
