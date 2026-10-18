@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1c22">
+  <meta name="description" content="Watch the Gotland World coastal trailer: daylight, moving vegetation, surf and a living soundscape. Actual game footage from the macOS development preview.">
+  <title>Gotland World · Daylight on the coast</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0b1c22; color: #f4f3ea; min-height: 100svh; display: grid; place-items: center; }
+    main { width: min(100%, 1100px); padding: 34px 20px; padding-left: max(20px, env(safe-area-inset-left)); padding-right: max(20px, env(safe-area-inset-right)); }
+    .eyebrow { color: #aecfc4; letter-spacing: .17em; font-size: .76rem; font-weight: 600; }
+    h1 { font-size: clamp(1.7rem, 5vw, 3.2rem); font-weight: 500; letter-spacing: -.04em; margin: 12px 0; }
+    .intro { color: #bdcece; margin: 0 0 24px; line-height: 1.6; }
+    video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 12px; box-shadow: 0 18px 60px #0005; }
+    nav { display: flex; flex-wrap: wrap; gap: 16px 24px; margin: 20px 0 32px; }
+    a { color: #c3e4d7; text-underline-offset: 4px; padding: 8px 0; }
+    a:focus-visible { outline: 2px solid #c3e4d7; outline-offset: 5px; }
+    footer { color: #a9babb; font-size: .82rem; line-height: 1.7; }
+    footer p { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">GOTLAND WORLD</div>
+    <h1>Daylight on the coast</h1>
+    <p class="intro">39 seconds around Gotland. Tap play and turn the sound on.</p>
+    <video controls playsinline preload="metadata" poster="images/trailer-poster.jpg" aria-label="Gotland World coastal trailer">
+      <source src="media/GotlandWorld-Daylight-and-Coast.mp4" type="video/mp4">
+      <a href="media/GotlandWorld-Daylight-and-Coast.mp4">Play the trailer</a>
+    </video>
+    <nav aria-label="Trailer links">
+      <a href="media/GotlandWorld-Daylight-and-Coast.mp4">Open video directly</a>
+      <a href="https://github.com/mannetroll/gotlandgame">Game downloads &amp; information</a>
+    </nav>
+    <footer>
+      <p>Actual game footage and sound from the macOS development preview · 18 October 2026.</p>
+      <p>This preview shows improvements beyond the current v0.1.0 public game release.</p>
+    </footer>
+  </main>
+</body>
+</html>

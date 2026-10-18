@@ -4,11 +4,15 @@
 
 Drive and explore Gotland and Fårö, visit Visby and coastal landmarks, or let autopilot take you on a tour. Gotland Ring is included for circuit driving.
 
-**[Download v0.1.0](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.0)** · **[Installation guide](INSTALL.md)**
+**[Watch the coastal trailer](https://mannetroll.github.io/gotlandgame/)** · **[Download v0.1.0](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.0)** · **[Installation guide](INSTALL.md)**
 
-This public repository contains player documentation, screenshots and credits. The compiled games are attached to Releases. No game source code, Unity project or development history is included.
+This public repository contains player documentation, screenshots, a trailer and credits. The compiled games are attached to Releases. No game source code, Unity project or development history is included.
 
 ![Driving beside Visby's city wall](images/visby.png)
+
+## Trailer
+
+[Watch the 39-second coastal trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. This is actual footage from the macOS development preview, showing daylight, moving vegetation and the living soundscape. These improvements are newer than the current v0.1.0 public release.
 
 ## Downloads
 
