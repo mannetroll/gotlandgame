@@ -21,6 +21,8 @@ If the disk image cannot open, confirm both files finished downloading, are in t
 2. Open the Setup executable and choose the install folder. Installation is per-user and does not require administrator rights.
 3. Launch **Gotland World** from the Start menu or the optional Desktop shortcut.
 
+The installer, launcher, Desktop shortcut and Start menu shortcut use the Kovik chapel icon.
+
 The installer and game executable are not publisher-signed, so Windows may display a reputation warning. Verify the download before deciding whether to run it. The installer includes the game and its runtime; no Unity Editor or separate .NET installation is required.
 
 The portable game layout remains `GotlandWorld.exe` beside `GotlandWorld_Data`. Keep those two entries together if moving the installed game. The installer also adds documentation and an uninstaller. Uninstall through Windows **Settings → Apps → Installed apps**.
