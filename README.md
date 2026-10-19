@@ -110,7 +110,7 @@ other separately sourced assets are excluded.
 
 ## Agent-driven development
 
-Human prompts direct Codex's implementation and verification work. **Approximate development-session time with Codex: 39 hours** for the logged **15–17 October 2026** development phase.
+Human prompts direct Codex's implementation and verification work. **Approximate development-session time with Codex: 39 hours**.
 
 This is elapsed session time, including agent work, downloads and builds, with overlapping chats counted once. The figure is based on four saved Codex conversation logs and covers this phase only; later release work is not included.
 
