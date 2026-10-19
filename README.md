@@ -110,6 +110,7 @@ other separately sourced assets are excluded.
 
 ## Agent-driven development
 
-Human prompts direct Codex's implementation and verification work. **Estimated hands-on prompting: approximately 4–7 hours** across **281 user inputs** in four saved Codex conversation logs covering **15–17 October 2026**.
+Human prompts direct Codex's implementation and verification work. **Approximate development-session time with Codex: 39 hours** for the logged **15–17 October 2026** development phase.
 
-This is an estimate, not a recorded timesheet. It assumes 40–60 words per minute for roughly 4,400 words of remaining prompt text, plus 30–60 seconds per input for framing and quick review. Obvious pasted material and automatic setup metadata are excluded. Agent runtime, download/build waiting, gameplay testing and later release work are not counted.
+This is elapsed session time, including agent work, downloads and builds, with overlapping chats counted once. The figure is based on four saved Codex conversation logs and covers this phase only; later release work is not included.
+
