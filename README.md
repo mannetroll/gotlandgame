@@ -38,7 +38,7 @@ This public repository contains player documentation, screenshots, a trailer and
 | Fuel stations | 28 | 24 petrol stations and 4 biogas-only sites |
 | Rauks | 21 | Limestone formations: Digerhuvud, Folhammar, Hoburgsgubben |
 | Resorts & accommodation | 7 | Sudersand, Tofta Resort, Surflogiet |
-| Other landmarks & places | 29 | Towns, islands and sights: Visby, Stora Karlsö, Stora Torget |
+| Other landmarks & places | 30 | Visby, Stora Karlsö, Stora Torget, Visby Airport, Lekarve and Snäckbacken |
 
 Counts refer to map entries; some locations have more than one entry.
 
