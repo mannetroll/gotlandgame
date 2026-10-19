@@ -27,6 +27,21 @@ This public repository contains player documentation, screenshots, a trailer and
 
 [Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the macOS development preview with the car’s engine and coastal ambience. These locations and the Impreza are included in v0.1.1.
 
+**Points of interest (POIs) on the G map**
+
+| Category | Entries | Examples / description |
+|---|---:|---|
+| Churches, chapels & ruins | 104 | Visby Cathedral, Kovik chapel, Roma abbey |
+| Lighthouses & navigation lights | 94 | Coastal towers, harbour lights and leading lights |
+| Fishing villages & harbours | 78 | Kovik, Helgumannen, Grynge |
+| Beaches & bathing places | 31 | Seaside and lakeside swimming spots |
+| Fuel stations | 28 | 24 petrol stations and 4 biogas-only sites |
+| Rauks | 21 | Limestone formations: Digerhuvud, Folhammar, Hoburgsgubben |
+| Resorts & accommodation | 7 | Sudersand, Tofta Resort, Surflogiet |
+| Other landmarks & places | 29 | Towns, islands and sights: Visby, Stora Karlsö, Stora Torget |
+
+Counts refer to map entries; some locations have more than one entry.
+
 ## Downloads
 
 Download **every file for your platform** into the same folder and keep their names unchanged. The complete world is around 4.7 GB installed. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
