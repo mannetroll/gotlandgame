@@ -52,9 +52,11 @@ Engine audio is derived from the repository owner's in-car film recorded in thei
 
 © OpenStreetMap contributors. Roads, coastlines, buildings, land-use geometry, vegetation, places and circuit data include adapted OpenStreetMap data, sourced through the Geofabrik Sweden extract. Licence and attribution: https://www.openstreetmap.org/copyright . ODbL terms: https://opendatacommons.org/licenses/odbl/1-0/ . Preserve attribution and applicable share-alike obligations for adapted databases. Runtime geography and source/provenance metadata accompany the game.
 
-## Lantmäteriet — CC BY 4.0
+## Lantmäteriet — CC BY 4.0 and CC0
 
-© Lantmäteriet. Processed information from Min karta orthophotography, Markhöjdmodell Nedladdning (RH2000 terrain), Laserdata Nedladdning skog (including the 2024 survey), and the 1:50,000 topographic map provides terrain, measured building details and the optional touring-map background. Map order reference: LM2026/157873. Information has been resampled, interpreted and adapted for game rendering. Licence: https://creativecommons.org/licenses/by/4.0/ . Provider: https://www.lantmateriet.se/ . Runtime provenance retains source identifiers and measurement qualifications.
+© Lantmäteriet. Markhöjdmodell Nedladdning (RH2000 terrain) and Laserdata Nedladdning skog supply terrain and measured building and road details. Information is resampled, interpreted and adapted for game rendering. These sources retain their CC BY 4.0 attribution: https://creativecommons.org/licenses/by/4.0/ . Runtime provenance records source identifiers and measurement qualifications.
+
+The detailed touring map uses **Karta 1:10 000 raster, Vägnamn**, downloaded from Lantmäteriet’s open-data FTP service under **CC0**: https://creativecommons.org/publicdomain/zero/1.0/ . Raster colours also inform supplemental building detection. Product, download paths and processing metadata accompany the game in TopographicMap/source.json. Provider: https://www.lantmateriet.se/ .
 
 ## Microsoft building footprints — CDLA Permissive 2.0
 

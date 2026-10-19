@@ -44,28 +44,26 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-Download **every file for your platform** into the same folder and keep their names unchanged. The complete world is around 4.7 GB installed. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
+Download **every file for your platform** into the same folder and keep their names unchanged. The complete world is around 8 GB installed. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
-| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-macOS-arm64.002.dmgpart) | The `.dmg` file |
-| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup-2.bin) | The `Setup.exe` file |
+| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.003.dmgpart) · [Part 4](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.004.dmgpart) | The `.dmg` file |
+| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-3.bin) · [Data 4](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-4.bin) | The `Setup.exe` file |
 
-SHA-256 checksums are available for [Windows v0.1.2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/SHA256SUMS) and [macOS v0.1.1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/SHA256SUMS). See [installation instructions](INSTALL.md) for verification and first-launch details. No Unity Editor, .NET installation, account or geographic downloads are required to play.
+[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 25 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
 
-## What’s new in v0.1.2 for Windows
+## What’s new in v0.1.3
 
-- One installer for Windows 10 22H2 (build 19045) and Windows 11, x64.
-- Verified installation, shortcuts, driving modes, walking, entering and exiting the Impreza, and refuelling on Windows 10 Pro with Direct3D 11.
-- The macOS download remains v0.1.1.
-
-## What’s new in v0.1.1
-
-- Detailed Kovik chapel, red boathouses, museum huts, gravel approach and flat concrete quay.
-- Coastal daylight, moving vegetation and location-based ambience, with quieter shore sounds inland.
-- Leave the stopped Impreza with **E**, walk with the **arrow keys**, and return to enter. Refuel with **N** when stopped at a pump.
+- Detailed Lantmäteriet 1:10,000 maps across Gotland; map zoom is remembered when reopening with G.
+- More buildings, laser-based road grading and smoother road-to-terrain joins.
+- Visby Airport and Snäckbacken destinations.
+- Corrected Kovik shoreline, boathouse orientation and quay edges; improved scenery grounding.
+- Forests mix broad green crowns, conifers and taller leafy trees.
+- Hold **Up + L** while on foot to run with one hand.
+- Updated Apple Silicon download and one Windows installer for Windows 10 and Windows 11.
 
 ## Play
 
@@ -88,6 +86,7 @@ Touring starts near Fiskarporten in Visby. Explore roads and landmarks, use the 
 | B · N | Find a petrol station · refuel when stopped at a pump |
 | E | Exit the stopped Impreza · enter it when nearby |
 | Arrow keys on foot · mouse | Walk · look around |
+| Up + L on foot | Run |
 | M · F | Toggle sound · fullscreen |
 | Escape | Pause, settings and driving mode |
 
