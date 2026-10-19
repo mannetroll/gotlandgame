@@ -87,3 +87,23 @@ The included car models use **CC BY-NC 4.0**. Builds containing them are for **n
 - [Microsoft building-data licence](LICENSE-CDLA-Permissive-2.0.txt)
 
 The Windows download is v0.1.2 for Windows 10 22H2 and Windows 11. The macOS download remains v0.1.1. The inherited internal player version may display v0.3.3.
+
+## Open data and reusable assets
+
+| Name | Size | Type | Description |
+|---|---|---|---|
+| Lantmäteriet | 64GB | `.copc.laz`, `.tif` | Laser point clouds, GeoTIFF terrain elevations and raster maps. |
+| Trafikverket / NVDB | 2MB | `.json` | Road geometry and measured road-width records. |
+| OpenStreetMap / Geofabrik | 900MB | `.osm.pbf` | Sweden map extract: roads, paths, coastlines, buildings and place names. |
+| Naturvårdsverket | 2.7GB | `.zip` | Archives containing GeoTIFF land-cover rasters. |
+| Skogsstyrelsen | 2.3GB | `.mrf`, `.lrc`, `.idx` | Tree-height raster files. |
+| Jordbruksverket | 66MB | `.geojson` | Agricultural field and parcel boundaries. |
+| Microsoft Building Footprints | 9MB | `.csv.gz` | Compressed building outlines. |
+| Copernicus DEM | 16MB | `.tif` | GeoTIFF elevation rasters used for offshore islands. |
+| Poly Haven / ambientCG | 160MB | `.jpg`, `.png`, `.zip` | Texture downloads for the Kovik material set. |
+| **Total** | **≈70.2GB** | | |
+
+Sizes are rounded estimates in MB or GB (decimal units), based on cached source files and download
+manifests; archives are counted in their downloaded, compressed form. These are
+source-data volumes, not the installed game size. Small website references and
+other separately sourced assets are excluded.
