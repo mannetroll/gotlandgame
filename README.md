@@ -107,3 +107,9 @@ Sizes are rounded estimates in MB or GB (decimal units), based on cached source 
 manifests; archives are counted in their downloaded, compressed form. These are
 source-data volumes, not the installed game size. Small website references and
 other separately sourced assets are excluded.
+
+## Agent-driven development
+
+Human prompts direct Codex's implementation and verification work. **Estimated hands-on prompting: approximately 4–7 hours** across **281 user inputs** in four saved Codex conversation logs covering **15–17 October 2026**.
+
+This is an estimate, not a recorded timesheet. It assumes 40–60 words per minute for roughly 4,400 words of remaining prompt text, plus 30–60 seconds per input for framing and quick review. Obvious pasted material and automatic setup metadata are excluded. Agent runtime, download/build waiting, gameplay testing and later release work are not counted.
