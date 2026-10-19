@@ -4,7 +4,7 @@
 
 Drive and explore Gotland and Fårö, visit Visby and coastal landmarks, or let autopilot take you on a tour. Gotland Ring is included for circuit driving.
 
-**[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/)** · **[Download v0.1.1](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.1)** · **[Installation guide](INSTALL.md)**
+**[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/)** · **[Downloads](https://github.com/mannetroll/gotlandgame/releases/latest)** · **[Installation guide](INSTALL.md)**
 
 This public repository contains player documentation, screenshots, a trailer and credits. The compiled games are attached to Releases. No game source code, Unity project or development history is included.
 
@@ -30,11 +30,17 @@ Download **every file for your platform** into the same folder and keep their na
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
 | macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-macOS-arm64.002.dmgpart) | The `.dmg` file |
-| Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/GotlandWorld-v0.1.1-Windows-x64-Setup-2.bin) | The `Setup.exe` file |
+| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/GotlandWorld-v0.1.2-Windows-x64-Setup-2.bin) | The `Setup.exe` file |
 
-[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/SHA256SUMS) are available for all downloads. See [installation instructions](INSTALL.md) for verification and first-launch details. No Unity Editor, .NET installation, account or geographic downloads are required to play.
+SHA-256 checksums are available for [Windows v0.1.2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/SHA256SUMS) and [macOS v0.1.1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/SHA256SUMS). See [installation instructions](INSTALL.md) for verification and first-launch details. No Unity Editor, .NET installation, account or geographic downloads are required to play.
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
+
+## What’s new in v0.1.2 for Windows
+
+- One installer for Windows 10 22H2 (build 19045) and Windows 11, x64.
+- Verified installation, shortcuts, driving modes, walking, entering and exiting the Impreza, and refuelling on Windows 10 Pro with Direct3D 11.
+- The macOS download remains v0.1.1.
 
 ## What’s new in v0.1.1
 
@@ -80,4 +86,4 @@ The included car models use **CC BY-NC 4.0**. Builds containing them are for **n
 - [Original software licence](LICENSE)
 - [Microsoft building-data licence](LICENSE-CDLA-Permissive-2.0.txt)
 
-Release v0.1.1 packages the existing macOS.19 game builds. The inherited internal player version may display v0.3.3; the public download release is v0.1.1.
+The Windows download is v0.1.2 for Windows 10 22H2 and Windows 11. The macOS download remains v0.1.1. The inherited internal player version may display v0.3.3.

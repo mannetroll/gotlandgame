@@ -1,6 +1,6 @@
 # Install Gotland World
 
-Download the files for your platform from [release v0.1.1](https://github.com/mannetroll/gotlandgame/releases/tag/v0.1.1). Keep all parts in one folder and retain their exact names. Allow at least 12 GB free while downloading and installing. The installed game needs around 4.7 GB.
+Download the files for your platform from the [download release](https://github.com/mannetroll/gotlandgame/releases/latest). The Windows installer is v0.1.2; the macOS disk image is v0.1.1. Keep all parts in one folder and retain their exact names. Allow at least 12 GB free while downloading and installing. The installed game needs around 4.7 GB.
 
 ## macOS — Apple Silicon
 
@@ -15,9 +15,11 @@ The application has a verified ad-hoc signature but is not Developer ID signed o
 
 If the disk image cannot open, confirm both files finished downloading, are in the same folder and have not acquired suffixes such as `(1)`. Compare their checksums before downloading again.
 
-## Windows 11 — x64
+## Windows 10 and Windows 11 — x64
 
-1. Download `GotlandWorld-v0.1.1-Windows-x64-Setup.exe`, `GotlandWorld-v0.1.1-Windows-x64-Setup-1.bin` and `GotlandWorld-v0.1.1-Windows-x64-Setup-2.bin` into the same folder.
+Requires Windows 10 22H2 (build 19045) or later, including Windows 11, and a Direct3D 11 capable GPU. The same installer runs on both operating systems.
+
+1. Download `GotlandWorld-v0.1.2-Windows-x64-Setup.exe`, `GotlandWorld-v0.1.2-Windows-x64-Setup-1.bin` and `GotlandWorld-v0.1.2-Windows-x64-Setup-2.bin` into the same folder.
 2. Open the Setup executable and choose the install folder. Installation is per-user and does not require administrator rights.
 3. Launch **Gotland World** from the Start menu or the optional Desktop shortcut.
 
@@ -29,7 +31,7 @@ The portable game layout remains `GotlandWorld.exe` beside `GotlandWorld_Data`. 
 
 ## Verify downloads
 
-Download `SHA256SUMS` into the folder containing your platform's files.
+Download the matching `SHA256SUMS` into the folder containing your platform's files: [Windows v0.1.2 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.2/SHA256SUMS) or [macOS v0.1.1 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.1/SHA256SUMS).
 
 On macOS, open Terminal in that folder and run:
 
