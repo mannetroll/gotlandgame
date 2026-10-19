@@ -17,6 +17,10 @@ This public repository contains player documentation, screenshots, a trailer and
     <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Väst, its campsite and beach seen from above" width="100%"></a><br><strong>Sudersand Väst — from above</strong></td>
     <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn harbour, channel and grain terminal" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
   </tr>
+  <tr>
+    <td width="50%"><a href="images/map-simple.png"><img src="images/map-simple.png" alt="G map in Simple mode showing the coast, route and landmarks around Kovik" width="100%"></a><br><strong>G map — Simple view</strong></td>
+    <td width="50%"><a href="images/map-topographic.png"><img src="images/map-topographic.png" alt="G map in Topographic mode showing Lantmäteriet terrain, roads and buildings around Kovik" width="100%"></a><br><strong>G map — Topographic view</strong></td>
+  </tr>
 </table>
 
 ## Trailer
