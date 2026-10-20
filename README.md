@@ -44,7 +44,7 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-Download **every file for your platform** into the same folder and keep their names unchanged. The complete world uses 5.53 GB installed on macOS and 5.63 GB on Windows. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
+Download **every file for your platform** into the same folder and keep their names unchanged. The complete world uses 5.53 GB installed on macOS and approximately 5.52 GB on Windows. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
@@ -64,6 +64,8 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 - Forests mix broad green crowns, conifers and taller leafy trees.
 - Hold **Up + L** while on foot to run with one hand.
 - Updated Apple Silicon download and one Windows installer for Windows 10 and Windows 11.
+
+The latest Windows package also includes repaired road bumps and breaks, the flat Road 140 section north of Klintehamn, smaller Follow instruments, no instruments in Drone view, and the searchable POI browser. The download is 5.105 GB, about 51 MB smaller than the preceding Windows v0.1.3 package.
 
 ## Play
 
@@ -90,6 +92,8 @@ Touring starts near Fiskarporten in Visby. Explore roads and landmarks, use the 
 | M · F | Toggle sound · fullscreen |
 | Escape | Pause, settings and driving mode |
 
+In the latest Windows build, **V** opens the category-ordered POI browser from any driving camera. The search field stays focused: type a name, use **Up/Down** to select a result, and press **Enter** to go there. Move the mouse to look around without holding a button. **Escape** returns to the car. An empty search shows no results; **Left/Right** cycles POIs. The last POI is remembered during the session.
+
 On Gotland Ring, autopilot uses Cmd+P on Mac or Ctrl+P on Windows; fullscreen uses Cmd+F / Ctrl+F. F3 opens driving settings, Z switches to the training area and Home restarts the lap (Fn+Left on compact Mac keyboards).
 
 This is a prototype. Buildings and scenery combine mapped geometry, measurements and estimated details. Autopilot is experimental and can drive very fast. Some offshore terrain is provisional. The game is not a navigation or road-safety tool.
@@ -104,7 +108,7 @@ The included car models use **CC BY-NC 4.0**. Builds containing them are for **n
 - [Original software licence](LICENSE)
 - [Microsoft building-data licence](LICENSE-CDLA-Permissive-2.0.txt)
 
-Both downloads are v0.1.3, built from macOS.22. They include compact terrain storage, the Plesse instrument cluster with RPM on the right, and the version on the HUD. The Windows installer replaces the managed player files during an upgrade; game settings are stored separately.
+Both downloads are v0.1.3. Windows is built from macOS.23 (`5cf0342a7`); the existing macOS download remains based on macOS.22. They include compact terrain storage, the Plesse instrument cluster with RPM on the right, and the version on the HUD. The Windows installer replaces the managed player files during an upgrade; game settings are stored separately.
 
 ## Open data and reusable assets
 
