@@ -25,7 +25,7 @@ This public repository contains player documentation, screenshots, a trailer and
 
 ## Trailer
 
-[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the macOS development preview with the car’s engine and coastal ambience. These locations and the Impreza are included in v0.1.1.
+[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the macOS development preview with the car’s engine and coastal ambience. These locations and the Impreza are included in the current release.
 
 **Points of interest (POIs) on the G map**
 
@@ -44,7 +44,9 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-Download **every file for your platform** into the same folder and keep their names unchanged. The complete world uses approximately 5.47 GB installed on macOS and approximately 5.52 GB on Windows. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
+**v0.1.3 for both platforms is built from macOS.23 (`5cf0342a7`).**
+
+Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
@@ -55,7 +57,15 @@ Download **every file for your platform** into the same folder and keep their na
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
 
-## What’s new in v0.1.3
+| Package | Complete download | Installed size |
+|---|---:|---:|
+| macOS Apple Silicon | 5.121 GB | 5.469 GB |
+| Windows x64 | 5.105 GB | approximately 5.52 GB |
+
+Sizes use decimal GB. If replacing an earlier v0.1.3 download, replace **all parts**
+for that platform together; do not mix old and new files.
+
+## Included in v0.1.3
 
 - Detailed Lantmäteriet 1:10,000 maps across Gotland; map zoom is remembered when reopening with G.
 - More buildings, laser-based road grading and smoother road-to-terrain joins.
@@ -64,8 +74,20 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 - Forests mix broad green crowns, conifers and taller leafy trees.
 - Hold **Up + L** while on foot to run with one hand.
 - Updated Apple Silicon download and one Windows installer for Windows 10 and Windows 11.
+- Compact terrain storage with shared vertices; road repairs remove unnatural bumps and breaks while keeping natural hills. The Road 140 section north of Klintehamn is level.
+- Plesse instruments with the speedometer in the centre and RPM on the right. Follow instruments are 25% smaller; Touring and Gotland Ring Drone views have no instrument overlay.
+- Menu and exit controls aligned with the infobox, FPS on its own final line, and geographic attribution in the G map.
+- A searchable browser for all 395 POIs, ordered by category starting with churches and fishing villages.
 
-The latest macOS and Windows packages also include repaired road bumps and breaks, the flat Road 140 section north of Klintehamn, smaller Follow instruments, no instruments in Drone view, and the searchable POI browser. The macOS download is 5.121 GB, about 72 MB smaller than its preceding package. The Windows download is 5.105 GB, about 51 MB smaller than its preceding package.
+## Validation
+
+Both builds passed **76,394 world checks**. Native tests on macOS, Windows 10 Pro
+22H2 (EXCAVATOR) and Windows 11 Pro (fractal) passed driving modes, five-site road
+and terrain collision checks, POI browsing and mouse look, instrument rendering,
+walking, and the continuous **34.4 km drive to Klintehamn without resets or
+teleports**. Windows upgrade installation, icons and shortcuts were checked on
+both hosts. The Mac disk image, packaged app signature and installed POI browser
+were checked. Published asset hashes match the tested packages.
 
 ## Play
 
@@ -83,6 +105,7 @@ Touring starts near Fiskarporten in Visby. Explore roads and landmarks, use the 
 | G | Open or close the touring map |
 | + | Jump one kilometre along the route |
 | C | Cycle cockpit, bonnet, follow and drone cameras |
+| V | Open the Touring POI browser |
 | Y · T | Change car · paint where supported |
 | H | Switch AWD / Arcade handling |
 | B · N | Find a petrol station · refuel when stopped at a pump |
@@ -92,7 +115,7 @@ Touring starts near Fiskarporten in Visby. Explore roads and landmarks, use the 
 | M · F | Toggle sound · fullscreen |
 | Escape | Pause, settings and driving mode |
 
-In the latest builds, **V** opens the category-ordered POI browser from any driving camera. The search field stays focused: type a name, use **Up/Down** to select a result, and press **Enter** to go there. Move the mouse to look around without holding a button. **Escape** returns to the car. An empty search shows no results; **Left/Right** cycles POIs. The last POI is remembered during the session.
+In the latest builds, **V** opens the category-ordered POI browser from any driving camera. The search field stays focused: type a name, use **Up/Down** to select a result, and press **Enter** to go there. Move the mouse to look around without holding a button. **Escape** returns to the car. An empty search shows no results; **Left/Right** cycles POIs. The car stays paused in place while browsing, including at POIs unavailable to cars. Escape waits for the car’s terrain to load before restoring driving. The last POI is remembered during the session.
 
 On Gotland Ring, autopilot uses Cmd+P on Mac or Ctrl+P on Windows; fullscreen uses Cmd+F / Ctrl+F. F3 opens driving settings, Z switches to the training area and Home restarts the lap (Fn+Left on compact Mac keyboards).
 
@@ -108,7 +131,7 @@ The included car models use **CC BY-NC 4.0**. Builds containing them are for **n
 - [Original software licence](LICENSE)
 - [Microsoft building-data licence](LICENSE-CDLA-Permissive-2.0.txt)
 
-Both downloads are v0.1.3. Both are built from macOS.23 (`5cf0342a7`). They include compact terrain storage, the Plesse instrument cluster with RPM on the right, and the version on the HUD. The Windows installer replaces the managed player files during an upgrade; game settings are stored separately.
+The Windows installer replaces the managed player files during an upgrade; game settings are stored separately.
 
 ## Open data and reusable assets
 
