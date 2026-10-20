@@ -44,14 +44,14 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-Download **every file for your platform** into the same folder and keep their names unchanged. The complete world uses 5.53 GB installed on macOS and around 8 GB on Windows. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
+Download **every file for your platform** into the same folder and keep their names unchanged. The complete world uses 5.53 GB installed on macOS and 5.63 GB on Windows. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
 | macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.003.dmgpart) | The `.dmg` file |
-| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-3.bin) · [Data 4](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-4.bin) | The `Setup.exe` file |
+| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-3.bin) | The `Setup.exe` file |
 
-[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free on macOS or 25 GB on Windows while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
+[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
 
@@ -104,7 +104,7 @@ The included car models use **CC BY-NC 4.0**. Builds containing them are for **n
 - [Original software licence](LICENSE)
 - [Microsoft building-data licence](LICENSE-CDLA-Permissive-2.0.txt)
 
-Both downloads are v0.1.3. The macOS.22 update reduces the installed macOS app by 35.5%, adds the Plesse instrument cluster with RPM on the right, and displays the version on the HUD. The Windows installer remains based on macOS.21; its inherited internal player version may display v0.3.3.
+Both downloads are v0.1.3, built from macOS.22. They include compact terrain storage, the Plesse instrument cluster with RPM on the right, and the version on the HUD. The Windows installer replaces the managed player files during an upgrade; game settings are stored separately.
 
 ## Open data and reusable assets
 

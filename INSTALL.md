@@ -1,6 +1,6 @@
 # Install Gotland World
 
-Download the files for your platform from the [download release](https://github.com/mannetroll/gotlandgame/releases/latest). Both platforms are v0.1.3. The smaller macOS download is built from macOS.22; the Windows installer remains based on macOS.21. Keep all parts in one folder and retain their exact names. Allow at least 18 GB free for macOS or 25 GB for Windows while downloading and installing. The installed macOS app uses 5.53 GB; Windows uses around 8 GB.
+Download the files for your platform from the [download release](https://github.com/mannetroll/gotlandgame/releases/latest). Both platforms are v0.1.3, built from macOS.22 with compact terrain storage. Keep all parts in one folder and retain their exact names. Allow at least 18 GB free while downloading and installing. The installed macOS app uses 5.53 GB; Windows uses 5.63 GB.
 
 ## macOS — Apple Silicon
 
@@ -19,11 +19,11 @@ If the disk image cannot open, confirm all three files finished downloading, are
 
 Requires Windows 10 22H2 (build 19045) or later, including Windows 11, and a Direct3D 11 capable GPU. The same installer runs on both operating systems.
 
-1. Download `GotlandWorld-v0.1.3-Windows-x64-Setup.exe` and all four matching data parts, `GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin` through `GotlandWorld-v0.1.3-Windows-x64-Setup-4.bin` from the release into the same folder.
+1. Download `GotlandWorld-v0.1.3-Windows-x64-Setup.exe` and all three matching data parts, `GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin` through `GotlandWorld-v0.1.3-Windows-x64-Setup-3.bin` from the release into the same folder.
 2. Open the Setup executable and choose the install folder. Installation is per-user and does not require administrator rights.
 3. Launch **Gotland World** from the Start menu or the optional Desktop shortcut.
 
-The installer, launcher, Desktop shortcut and Start menu shortcut use the Kovik chapel icon.
+The installer, launcher, Desktop shortcut and Start menu shortcut use the Kovik chapel icon. Upgrades replace the managed player files; game settings are stored separately. When replacing an earlier v0.1.3 download, download the complete new set of installer files and do not mix old and new parts.
 
 The installer and game executable are not publisher-signed, so Windows may display a reputation warning. Verify the download before deciding whether to run it. The installer includes the game and its runtime; no Unity Editor or separate .NET installation is required.
 
