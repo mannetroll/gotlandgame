@@ -10,18 +10,24 @@ This public repository contains player documentation, screenshots, a trailer and
 
 <table>
   <tr>
-    <td width="50%"><a href="images/kovik.png"><img src="images/kovik.png" alt="On foot beside the Impreza on Kovik’s concrete quay, with the red huts and chapel" width="100%"></a><br><strong>Kovik — quay, Impreza and chapel</strong></td>
-    <td width="50%"><a href="images/visby.png"><img src="images/visby.png" alt="Visby Cathedral and the Impreza overlooking the old town" width="100%"></a><br><strong>Visby Domkyrka</strong></td>
+    <td width="50%"><a href="images/kovik.png"><img src="images/kovik.png" alt="The Impreza arriving on Kovik’s concrete quay beside the red boathouses" width="100%"></a><br><strong>Kovik Quay</strong></td>
+    <td width="50%"><a href="images/visby.png"><img src="images/visby.png" alt="Visby Cathedral and the surrounding old town" width="100%"></a><br><strong>Visby Domkyrka</strong></td>
   </tr>
   <tr>
-    <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Väst, its campsite and beach seen from above" width="100%"></a><br><strong>Sudersand Väst — from above</strong></td>
-    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn harbour, channel and grain terminal" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
+    <td width="50%"><a href="images/kovik-ramp.png"><img src="images/kovik-ramp.png" alt="The concrete launch ramp and wooden bridge beside Kovik Quay" width="100%"></a><br><strong>Kovik boat ramp</strong></td>
+    <td width="50%"><a href="images/kovik-entrance.png"><img src="images/kovik-entrance.png" alt="The open gate, cattle grid, fences and bushes at the Kovik entrance" width="100%"></a><br><strong>Road 140 entrance</strong></td>
   </tr>
   <tr>
-    <td width="50%"><a href="images/map-simple.png"><img src="images/map-simple.png" alt="G map in Simple mode showing the whole of Gotland and Fårö" width="100%"></a><br><strong>G map — Simple view</strong></td>
-    <td width="50%"><a href="images/map-topographic.png"><img src="images/map-topographic.png" alt="G map in Topographic mode showing the whole of Gotland and Fårö on Lantmäteriet mapping" width="100%"></a><br><strong>G map — Topographic view</strong></td>
+    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn marina and the waterfront" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
+    <td width="50%"><a href="images/kovik-parking.png"><img src="images/kovik-parking.png" alt="Kovik’s gravel parking lot and pine woodland beside the road to the quay" width="100%"></a><br><strong>Kovik parking and woodland</strong></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="images/map-simple.png"><img src="images/map-simple.png" alt="The G map showing Gotland and Fårö" width="100%"></a><br><strong>G map — Simple view</strong></td>
+    <td width="50%"><a href="images/map-topographic.png"><img src="images/map-topographic.png" alt="The G map with Lantmäteriet topographic mapping" width="100%"></a><br><strong>G map — Topographic view</strong></td>
   </tr>
 </table>
+
+*In-game screenshots from the v0.1.4 macOS build.*
 
 ## Trailer
 
@@ -38,60 +44,69 @@ This public repository contains player documentation, screenshots, a trailer and
 | Fuel stations | 28 | 24 petrol stations and 4 biogas-only sites |
 | Rauks | 21 | Limestone formations: Digerhuvud, Folhammar, Hoburgsgubben |
 | Resorts & accommodation | 7 | Sudersand, Tofta Resort, Surflogiet |
-| Other landmarks & places | 30 | Visby, Stora Karlsö, Stora Torget, Visby Airport, Lekarve and Snäckbacken |
+| Other landmarks & places | 33 | Visby, Stora Karlsö, Stora Torget, Visby Airport, Lekarve and Snäckbacken |
 
 Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-**v0.1.3 for both platforms is built from macOS.23 (`5cf0342a7`).**
+**v0.1.4 for both platforms is built from macOS.24 (`7401f5538`).**
 
 Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
-| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-macOS-arm64.003.dmgpart) | The `.dmg` file |
-| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/GotlandWorld-v0.1.3-Windows-x64-Setup-3.bin) | The `Setup.exe` file |
+| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.003.dmgpart) | The `.dmg` file |
+| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-3.bin) | The `Setup.exe` file |
 
-[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.3/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
+[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
 
 | Package | Complete download | Installed size |
 |---|---:|---:|
-| macOS Apple Silicon | 5.121 GB | 5.469 GB |
-| Windows x64 | 5.105 GB | approximately 5.52 GB |
+| macOS Apple Silicon | 5.124 GB | 5.480 GB |
+| Windows x64 | 5.108 GB | 5.531 GB |
 
-Sizes use decimal GB. If replacing an earlier v0.1.3 download, replace **all parts**
+Sizes use decimal GB. When downloading an update, replace **all parts**
 for that platform together; do not mix old and new files.
 
-## Included in v0.1.3
+## New in v0.1.4
 
-- Detailed Lantmäteriet 1:10,000 maps across Gotland; map zoom is remembered when reopening with G.
-- More buildings, laser-based road grading and smoother road-to-terrain joins.
-- Visby Airport and Snäckbacken destinations.
-- Corrected Kovik shoreline, boathouse orientation and quay edges; improved scenery grounding.
-- Forests mix broad green crowns, conifers and taller leafy trees.
-- Hold **Up + L** while on foot to run with one hand.
-- Updated Apple Silicon download and one Windows installer for Windows 10 and Windows 11.
-- Compact terrain storage with shared vertices; road repairs remove unnatural bumps and breaks while keeping natural hills. The Road 140 section north of Klintehamn is level.
-- Plesse instruments with the speedometer in the centre and RPM on the right. Follow instruments are 25% smaller; Touring and Gotland Ring Drone views have no instrument overlay.
-- Menu and exit controls aligned with the infobox, FPS on its own final line, and geographic attribution in the G map.
-- A searchable browser for all 395 POIs, ordered by category starting with churches and fishing villages.
+- **Saved Home:** choose a POI, a searched destination, a map pin or your current car position from **G → Home**. The next launch starts there directly, facing the saved direction.
+- **Compact G-map controls:** a smaller search box, a **Home** button and the saved POI name beside it.
+- **Kovik Quay:** search and warp onto the concrete quay facing the chapel. As a route stop, autopilot follows the gravel road past the parking lot to the quay.
+- **Visby → Kovik Quay** is the default tour when no custom route has been saved. Existing saved routes are retained.
+- **Kovik scenery:** the chapel, museum huts, white house and surrounding pines, historical lysstång, fences, gates, parking lot, noticeboard and signs follow the supplied references.
+- **Harbour access:** a concrete boat ramp and wooden bridge meet the quay; the car can drive onto and leave the quay.
+- **Road 140 entrance:** an open gate, cattle grid, roadside fence and bushes frame the turn into Kovik.
+- **Drone camera:** following distance is adjustable from **5–120 m**; height is adjustable from 5 to 60 m.
+
+![Compact search and Home controls with Kovik Quay saved as Home](images/home-map.png)
 
 ## Validation
 
-Both builds passed **76,394 world checks**. Native tests on macOS, Windows 10 Pro
-22H2 (EXCAVATOR) and Windows 11 Pro (fractal) passed driving modes, five-site road
-and terrain collision checks, POI browsing and mouse look, instrument rendering,
-walking, and the continuous **34.4 km drive to Klintehamn without resets or
-teleports**. Windows upgrade installation, icons and shortcuts were checked on
-both hosts. The Mac disk image, packaged app signature and installed POI browser
-were checked. Published asset hashes match the tested packages.
+The tagged source passed the world and circuit validation on macOS. Native Mac
+checks passed driving-mode switching, road/terrain collision, Home save and direct
+startup, 396-entry POI browsing, drone settings, map rendering and Kovik access.
+The Kovik checks drove onto and off the quay and followed a route stop past the
+parking lot onto the concrete quay.
+
+The Windows build was compiled on **EXCAVATOR**. Windows 10 Pro 22H2 passed
+installer upgrade, registered version, icons and shortcuts, driving-mode switching,
+Home save/restore, POI browsing, drone settings and road/terrain collision.
+The Windows Kovik quay-exit test did not pass: the timed drive fell short near
+the red boathouse. Further Kovik testing was skipped for this release.
+The identical installer also passed
+installation, version, icons/shortcuts and a driving-mode startup smoke test on
+Windows 11 Pro (fractal).
+
+The segmented Mac disk image and the app signature inside it were verified.
+Published package sizes and SHA-256 hashes match the tested files.
 
 ## Play
 
-Touring starts near Fiskarporten in Visby. Explore roads and landmarks, use the G map to search destinations and warp, or choose an autopilot route. Open Escape to switch to Gotland Ring.
+Touring starts at your saved Home, or near Fiskarporten in Visby when no Home has been saved. The default route runs from Visby to Kovik Quay. Explore roads and landmarks, use the G map to search destinations and warp, or choose a custom autopilot route. Open Escape to switch to Gotland Ring.
 
 | Key | Action |
 |---|---|
