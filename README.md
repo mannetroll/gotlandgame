@@ -17,7 +17,7 @@ This public repository contains player documentation, screenshots, a trailer and
   </tr>
   <tr>
     <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Väst, its campsite and beach seen from above" width="100%"></a><br><strong>Sudersand Väst — from above</strong></td>
-    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn marina and the waterfront" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
+    <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn harbour, channel and grain terminal" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
   </tr>
   <tr>
     <td width="50%"><a href="images/map-simple.png"><img src="images/map-simple.png" alt="The G map showing Gotland and Fårö" width="100%"></a><br><strong>G map — Simple view</strong></td>
