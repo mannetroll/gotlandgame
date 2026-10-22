@@ -16,20 +16,14 @@ This public repository contains player documentation, screenshots, a trailer and
     <td width="50%"><a href="images/visby.png"><img src="images/visby.png" alt="Visby Cathedral and the surrounding old town" width="100%"></a><br><strong>Visby Domkyrka</strong></td>
   </tr>
   <tr>
-    <td width="50%"><a href="images/kovik-ramp.png"><img src="images/kovik-ramp.png" alt="The concrete launch ramp and wooden bridge beside Kovik Quay" width="100%"></a><br><strong>Kovik boat ramp</strong></td>
-    <td width="50%"><a href="images/kovik-entrance.png"><img src="images/kovik-entrance.png" alt="The open gate, cattle grid, fences and bushes at the Kovik entrance" width="100%"></a><br><strong>Road 140 entrance</strong></td>
-  </tr>
-  <tr>
+    <td width="50%"><a href="images/sudersand.png"><img src="images/sudersand.png" alt="Sudersand Väst, its campsite and beach seen from above" width="100%"></a><br><strong>Sudersand Väst — from above</strong></td>
     <td width="50%"><a href="images/klintehamn.png"><img src="images/klintehamn.png" alt="Klintehamn marina and the waterfront" width="100%"></a><br><strong>Klintehamn harbour</strong></td>
-    <td width="50%"><a href="images/kovik-parking.png"><img src="images/kovik-parking.png" alt="Kovik’s gravel parking lot and pine woodland beside the road to the quay" width="100%"></a><br><strong>Kovik parking and woodland</strong></td>
   </tr>
   <tr>
     <td width="50%"><a href="images/map-simple.png"><img src="images/map-simple.png" alt="The G map showing Gotland and Fårö" width="100%"></a><br><strong>G map — Simple view</strong></td>
     <td width="50%"><a href="images/map-topographic.png"><img src="images/map-topographic.png" alt="The G map with Lantmäteriet topographic mapping" width="100%"></a><br><strong>G map — Topographic view</strong></td>
   </tr>
 </table>
-
-*In-game screenshots from the v0.1.4 macOS build.*
 
 ## Trailer
 
@@ -83,8 +77,6 @@ for that platform together; do not mix old and new files.
 - **Harbour access:** a concrete boat ramp and wooden bridge meet the quay; the car can drive onto and leave the quay.
 - **Road 140 entrance:** an open gate, cattle grid, roadside fence and bushes frame the turn into Kovik.
 - **Drone camera:** following distance is adjustable from **5–120 m**; height is adjustable from 5 to 60 m.
-
-![Compact search and Home controls with Kovik Quay saved as Home](images/home-map.png)
 
 ## Validation
 
