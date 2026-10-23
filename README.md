@@ -46,7 +46,7 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-**v0.1.4 for both platforms is built from macOS.24 (`7401f5538`).**
+**v0.1.4 for macOS is updated to macOS.26 (`df964a7e2`). The Windows build remains macOS.24 (`7401f5538`).**
 
 Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
@@ -61,11 +61,17 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 
 | Package | Complete download | Installed size |
 |---|---:|---:|
-| macOS Apple Silicon | 5.124 GB | 5.480 GB |
+| macOS Apple Silicon | 5.125 GB | 5.481 GB |
 | Windows x64 | 5.108 GB | 5.531 GB |
 
 Sizes use decimal GB. When downloading an update, replace **all parts**
 for that platform together; do not mix old and new files.
+
+## macOS update
+
+- Modern dark menus, rounded controls and a compact driving HUD.
+- **J** toggles the driving HUD; **K** saves a Desktop PNG with location and camera metadata.
+- **Keyboard help & setup** in the Escape menu lets you change individual key bindings, shared between Touring and Gotland Ring.
 
 ## New in v0.1.4
 
@@ -77,26 +83,6 @@ for that platform together; do not mix old and new files.
 - **Harbour access:** a concrete boat ramp and wooden bridge meet the quay; the car can drive onto and leave the quay.
 - **Road 140 entrance:** an open gate, cattle grid, roadside fence and bushes frame the turn into Kovik.
 - **Drone camera:** following distance is adjustable from **5–120 m**; height is adjustable from 5 to 60 m.
-
-## Validation
-
-The tagged source passed the world and circuit validation on macOS. Native Mac
-checks passed driving-mode switching, road/terrain collision, Home save and direct
-startup, 396-entry POI browsing, drone settings, map rendering and Kovik access.
-The Kovik checks drove onto and off the quay and followed a route stop past the
-parking lot onto the concrete quay.
-
-The Windows build was compiled on **EXCAVATOR**. Windows 10 Pro 22H2 passed
-installer upgrade, registered version, icons and shortcuts, driving-mode switching,
-Home save/restore, POI browsing, drone settings and road/terrain collision.
-The Windows Kovik quay-exit test did not pass: the timed drive fell short near
-the red boathouse. Further Kovik testing was skipped for this release.
-The identical installer also passed
-installation, version, icons/shortcuts and a driving-mode startup smoke test on
-Windows 11 Pro (fractal).
-
-The segmented Mac disk image and the app signature inside it were verified.
-Published package sizes and SHA-256 hashes match the tested files.
 
 ## Play
 
