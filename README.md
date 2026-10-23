@@ -46,7 +46,7 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-**v0.1.4 for macOS is updated to macOS.26 (`6dc3a89c1`). The Windows build remains macOS.24 (`7401f5538`).**
+**v0.1.4 is updated to macOS.26 for both macOS and Windows.**
 
 Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
@@ -67,7 +67,7 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 Sizes use decimal GB. When downloading an update, replace **all parts**
 for that platform together; do not mix old and new files.
 
-## macOS update
+## Latest update
 
 - Modern dark menus and rounded controls. Gotland Ring groups the lap timer, FPS and side slip in one bottom-right panel, with five small buttons on one row and copyright in the footer. The space below the minimap stays clear.
 - **J** toggles the driving HUD; **K** saves a Desktop PNG with location and camera metadata.
@@ -112,7 +112,7 @@ Touring starts at your saved Home, or near Fiskarporten in Visby when no Home ha
 
 In the latest builds, **V** opens the category-ordered POI browser from any driving camera. The search field stays focused: type a name, use **Up/Down** to select a result, and press **Enter** to go there. Move the mouse to look around without holding a button. **Escape** returns to the car. An empty search shows no results; **Left/Right** cycles POIs. The car stays paused in place while browsing, including at POIs unavailable to cars. Escape waits for the car’s terrain to load before restoring driving. The last POI is remembered during the session.
 
-In the macOS.26 build, Touring and Gotland Ring share **P** for autopilot and **F** for fullscreen; custom bindings apply in both modes. The current Windows download uses Ctrl+P and Ctrl+F on Gotland Ring. F3 opens driving settings, Z switches to the training area and Home restarts the lap (Fn+Left on compact Mac keyboards).
+Touring and Gotland Ring share **P** for autopilot and **F** for fullscreen; custom bindings apply in both modes on macOS and Windows. F3 opens driving settings, Z switches to the training area and Home restarts the lap (Fn+Left on compact Mac keyboards).
 
 This is a prototype. Buildings and scenery combine mapped geometry, measurements and estimated details. Autopilot is experimental and can drive very fast. Some offshore terrain is provisional. The game is not a navigation or road-safety tool.
 
