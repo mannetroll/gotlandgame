@@ -61,7 +61,7 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 
 | Package | Complete download | Installed size |
 |---|---:|---:|
-| macOS Apple Silicon | 5.124 GB | 5.481 GB |
+| macOS Apple Silicon | 5.125 GB | 5.481 GB |
 | Windows x64 | 5.108 GB | 5.531 GB |
 
 Sizes use decimal GB. When downloading an update, replace **all parts**
@@ -69,14 +69,14 @@ for that platform together; do not mix old and new files.
 
 ## Latest update
 
-- Modern dark menus and rounded controls. Gotland Ring groups the lap timer, FPS and side slip in one bottom-right panel, with five small buttons on one row and copyright in the footer. The space below the minimap stays clear.
+- Modern dark menus and rounded controls. Gotland Ring groups the lap timer, FPS and side slip in one bottom-right panel, with five small buttons on one row and copyright in the footer. Each button shows its assigned key, including custom bindings. The space below the minimap stays clear.
 - **J** toggles the driving HUD; **K** saves a Desktop PNG with location and camera metadata.
 - **Keyboard help & setup** in the Escape menu lets you change individual key bindings, shared between Touring and Gotland Ring.
 
 ## New in v0.1.4
 
 - **Saved Home:** choose a POI, a searched destination, a map pin or your current car position from **G → Home**. The next launch starts there directly, facing the saved direction.
-- **Compact G-map controls:** a smaller search box, a **Home** button and the saved POI name beside it.
+- **Compact G-map controls:** a smaller search box, a **Home** button and the saved POI name beside it. **Warp** sits in the footer below the map, clear of the map and attribution.
 - **Kovik Quay:** search and warp onto the concrete quay facing the chapel. As a route stop, autopilot follows the gravel road past the parking lot to the quay.
 - **Visby → Kovik Quay** is the default tour when no custom route has been saved. Existing saved routes are retained.
 - **Kovik scenery:** the chapel, museum huts, white house and surrounding pines, historical lysstång, fences, gates, parking lot, noticeboard and signs follow the supplied references.
