@@ -46,34 +46,37 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-**v0.1.4 is updated to macOS.26 for both macOS and Windows.**
+**v0.1.5 brings the `orto.8` scenery improvements to macOS and Windows.**
 
 Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
 | Platform | Download | Open after downloading all parts |
 |---|---|---|
-| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-macOS-arm64.003.dmgpart) | The `.dmg` file |
-| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/GotlandWorld-v0.1.4-Windows-x64-Setup-3.bin) | The `Setup.exe` file |
+| macOS 12 or later, Apple Silicon | [Disk image](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-macOS-arm64.dmg) · [Part 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-macOS-arm64.002.dmgpart) · [Part 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-macOS-arm64.003.dmgpart) | The `.dmg` file |
+| Windows 10 22H2 (build 19045) or Windows 11, x64 | [Setup](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-Windows-x64-Setup.exe) · [Data 1](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-Windows-x64-Setup-1.bin) · [Data 2](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-Windows-x64-Setup-2.bin) · [Data 3](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/GotlandWorld-v0.1.5-Windows-x64-Setup-3.bin) | The `Setup.exe` file |
 
-[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.4/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
+[SHA-256 checksums](https://github.com/mannetroll/gotlandgame/releases/download/v0.1.5/SHA256SUMS) cover both platforms. See [installation instructions](INSTALL.md) for verification and first-launch details. Allow at least 18 GB free while downloading and installing. No Unity Editor, .NET installation, account or geographic downloads are required to play.
 
 Use the named game files under **Releases → Assets**. GitHub's automatic **Source code (zip/tar.gz)** links contain only this documentation repository; they are not game downloads.
 
 | Package | Complete download | Installed size |
 |---|---:|---:|
-| macOS Apple Silicon | 5.125 GB | 5.481 GB |
-| Windows x64 | 5.108 GB | 5.531 GB |
+| macOS Apple Silicon | 5.151 GB | 5.511 GB |
+| Windows x64 | 5.134 GB | 5.561 GB |
 
 Sizes use decimal GB. When downloading an update, replace **all parts**
 for that platform together; do not mix old and new files.
 
-## Latest update
+## New in v0.1.5
 
-- Modern dark menus and rounded controls. Gotland Ring groups the lap timer, FPS and side slip in one bottom-right panel, with five small buttons on one row and copyright in the footer. Each button shows its assigned key, including custom bindings. The space below the minimap stays clear.
-- **J** toggles the driving HUD; **K** saves a Desktop PNG with location and camera metadata.
-- **Keyboard help & setup** in the Escape menu lets you change individual key bindings, shared between Touring and Gotland Ring.
+- Improved residential roof outlines and heights across Gotland, using mapped outlines and laser measurements where supported.
+- Corrected Hemse church's tower and spire connection.
+- Removed obsolete roof-edge strips, including the hanging lines seen around Valbyte.
+- Runne and Kovik retain their approved scenery. Unsupported measurements and complex buildings retain their existing models.
+- Small additional scenery footprint, with no new roof textures.
 
-## New in v0.1.4
+## Touring features
+
 
 - **Saved Home:** choose a POI, a searched destination, a map pin or your current car position from **G → Home**. The next launch starts there directly, facing the saved direction.
 - **Compact G-map controls:** a smaller search box, a **Home** button and the saved POI name beside it. **Warp** sits in the footer below the map, clear of the map and attribution.
