@@ -27,7 +27,7 @@ This public repository contains player documentation, screenshots, a trailer and
 
 ## Trailer
 
-[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the macOS development preview with the car’s engine and coastal ambience. These locations and the Impreza are included in the current release.
+[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the released v0.1.5 world on macOS on 29 October 2026, with the car’s engine and coastal ambience. These locations and the Impreza are included in the current release.
 
 **Points of interest (POIs) on the G map**
 
