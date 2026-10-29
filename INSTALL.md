@@ -1,6 +1,6 @@
 # Install Gotland World
 
-Download the files for your platform from the [download release](https://github.com/mannetroll/gotlandgame/releases/latest). Both platforms are v0.1.5, built from orto.8, with compact terrain storage. Keep all parts in one folder and retain their exact names. Allow at least 18 GB free while downloading and installing. The installed macOS app uses approximately 5.511 GB; Windows uses approximately 5.561 GB.
+Download the files for your platform from the [download release](https://github.com/mannetroll/gotlandgame/releases/latest). Both platforms are v0.1.5, built from macOS.27, with compact terrain storage. Keep all parts in one folder and retain their exact names. Allow at least 18 GB free while downloading and installing. The installed macOS app uses approximately 5.513 GB; Windows uses approximately 5.563 GB.
 
 ## macOS — Apple Silicon
 

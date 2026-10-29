@@ -12,7 +12,7 @@ This public repository contains player documentation, screenshots, a trailer and
 
 <table>
   <tr>
-    <td width="50%"><a href="images/kovik.png"><img src="images/kovik.png" alt="The Impreza arriving on Kovik’s concrete quay beside the red boathouses" width="100%"></a><br><strong>Kovik Quay</strong></td>
+    <td width="50%"><a href="images/kovik.png"><img src="images/kovik.png" alt="Kovik’s concrete quay, red boathouses, white channel markers and lifebuoy" width="100%"></a><br><strong>Kovik Quay</strong></td>
     <td width="50%"><a href="images/visby.png"><img src="images/visby.png" alt="Visby Cathedral and the surrounding old town" width="100%"></a><br><strong>Visby Domkyrka</strong></td>
   </tr>
   <tr>
@@ -27,7 +27,7 @@ This public repository contains player documentation, screenshots, a trailer and
 
 ## Trailer
 
-[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the released v0.1.5 world on macOS on 29 October 2026, with the car’s engine and coastal ambience. These locations and the Impreza are included in the current release.
+[Watch the Impreza trailer](https://mannetroll.github.io/gotlandgame/) with sound, directly in your browser on iPhone or desktop. Real 1080p game footage features roadside drive-bys at Kovik and Sanda, a close tracking shot, Kovik’s red huts and concrete quay, and the sea at Tofta. Recorded in the v0.1.5 world on macOS on 29 October 2026, with the car’s engine and coastal ambience. These locations and the Impreza are included in the current release.
 
 **Points of interest (POIs) on the G map**
 
@@ -46,7 +46,7 @@ Counts refer to map entries; some locations have more than one entry.
 
 ## Downloads
 
-**v0.1.5 brings the `orto.8` scenery improvements to macOS and Windows.**
+**v0.1.5 now includes the `macOS.27` Kovik harbour improvements on macOS, Windows 10 and Windows 11.**
 
 Download **every file for your platform** into the same folder and keep their names unchanged. GitHub's per-file limit requires multiple parts; the disk image or installer reads them together.
 
@@ -61,8 +61,8 @@ Use the named game files under **Releases → Assets**. GitHub's automatic **Sou
 
 | Package | Complete download | Installed size |
 |---|---:|---:|
-| macOS Apple Silicon | 5.151 GB | 5.511 GB |
-| Windows x64 | 5.134 GB | 5.561 GB |
+| macOS Apple Silicon | 5.150 GB | 5.513 GB |
+| Windows x64 | 5.135 GB | 5.563 GB |
 
 Sizes use decimal GB. When downloading an update, replace **all parts**
 for that platform together; do not mix old and new files.
@@ -72,7 +72,8 @@ for that platform together; do not mix old and new files.
 - Improved residential roof outlines and heights across Gotland, using mapped outlines and laser measurements where supported.
 - Corrected Hemse church's tower and spire connection.
 - Removed obsolete roof-edge strips, including the hanging lines seen around Valbyte.
-- Runne and Kovik retain their approved scenery. Unsupported measurements and complex buildings retain their existing models.
+- Kovik has a continuous concrete quay face, clear car access, completed village fences, bright white channel markers and a lifebuoy. Stray shoreline geometry and the straight foam line beside the quay are removed.
+- Unsupported measurements and complex buildings retain their existing models.
 - Small additional scenery footprint, with no new roof textures.
 
 ## Touring features
